@@ -1,0 +1,22 @@
+.game-over {
+    background: #87D37C;
+    width: 520px;
+    margin: 20px auto;
+    padding: 15px 0;
+    box-shadow: 6px 6px #3FC380;
+    border-radius: 10px;
+}
+
+p {
+    font-size: 28px;
+    color: #fff;
+}
+
+.new {
+    position: absolute;
+    top: 465px;
+    margin-left: 10px;
+    font-size: 32px;
+    text-transform: uppercase;
+    color: #cb4e4e;
+}

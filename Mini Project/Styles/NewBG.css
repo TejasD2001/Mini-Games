@@ -1,0 +1,162 @@
+#overlay {
+  position: fixed; /* Sit on top of the page content */
+  display: none; /* Hidden by default */
+  width: 100%; /* Full width (cover the whole page) */
+  height: 100%; /* Full height (cover the whole page) */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+  z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+  cursor: pointer; /* Add a pointer on hover */
+}
+
+*{
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+
+}
+
+.showcase{
+  position: absolute;
+  right: 0;
+  width: 100%;
+  min-height: 100vh;
+  padding:100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #111;
+  color: #fff;
+  z-index: 2;
+}
+
+.showcase header{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 20px;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.logo{
+  /* text-transform: uppercase; */
+  cursor: pointer;
+  padding-left: 0px;
+}
+
+
+.showcase video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.8;
+}
+
+.overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* background: #03a9f4; */
+}
+
+.text{
+  display: inline-block;
+    position: fixed;
+    padding-top: 0px;
+    padding-left: 500px;
+    z-index: 0;
+    width:100%;
+    font-size: 60px;
+}
+
+hr{
+  margin-top: 130px;
+  width: 100%;
+}
+
+.topnav {
+  background-color: transparent;
+  overflow: hidden;
+  width: 20%;
+  margin-left: 1229px;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #0EE4FA;
+  color: white;
+}
+
+h1{
+  color: #009AFB;
+  margin-top: 0px;
+  font-family: 'Cinzel', serif;
+  margin-left: 150px;
+  width: 100%;
+  display: contents;
+  align: center;
+}
+
+.hr{
+  border-radius: 20px;
+  border-color: white;
+}
+
+/* Button */
+
+.myButton {
+  margin-top: 600px;
+  margin-left: 650px;
+	background-color:#35A4E9;
+	border-radius:42px;
+	border:2px solid #144e75;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:'Cinzel', serif;
+	font-size:25px;
+	font-weight:bold;
+	padding:19px 21px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #000000;
+}
+.myButton:hover {
+  position: relative;
+	background-color:transparent;
+}
+.myButton:active {
+	position:relative;
+	margin-top:100px;
+}
+.myButton:checked{
+  position: fixed;
+}
